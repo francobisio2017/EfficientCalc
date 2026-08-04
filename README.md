@@ -1,8 +1,4 @@
 # EfficientCalc
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 519df08 (Add README for v0.1.0)
 
 A lightweight and fast calculator written in modern C++.
 
@@ -50,13 +46,7 @@ Planned features:
 ## Version
 
 Current version: **v0.1.0**
-<<<<<<< HEAD
 
 ## Languages
 
-Current Languages: **Spanish**
-=======
-A lightweight and feature-rich calculator written in modern C++
->>>>>>> 605074f (Initial commit)
-=======
->>>>>>> 519df08 (Add README for v0.1.0)
+Current language: **Spanish**
