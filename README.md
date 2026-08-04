@@ -46,3 +46,7 @@ Planned features:
 ## Version
 
 Current version: **v0.1.0**
+
+## Languages
+
+Current Languages: **Spanish**
