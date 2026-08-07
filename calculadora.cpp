@@ -13,11 +13,11 @@ double resultado;
 char operador;
 
 while (true) {
-cout << "Ingrese la operacion que desea realizar (+, -, *, /, ^, r, %)" << '\n';
+cout << "Ingrese la operacion que desea realizar (+, -, *, /, ^, r, %) \n";
 cin >> operador;
 
     if (operador == 'r') {
-        cout << "Ingrese un numero" << '\n';
+        cout << "Ingrese un numero \n";
         cin >> num1;
 
         resultado = sqrt(num1);
@@ -26,10 +26,10 @@ cin >> operador;
         continue;
     }
     else if (operador == '%') {
-        cout << "Ingrese el porcentaje" << '\n';
+        cout << "Ingrese el porcentaje \n";
         cin >> num1;
 
-        cout << "Ingrese el numero" << '\n';
+        cout << "Ingrese el numero \n";
         cin >> num2;
 
         resultado = (num1 / 100) * num2;
@@ -37,15 +37,15 @@ cin >> operador;
         continue;
     }
     else{
-    cout << "Ingrese un numero" << '\n';
+    cout << "Ingrese un numero \n";
     cin >> num1;
 
-    cout << "Ingrese otro numero" << '\n';
+    cout << "Ingrese otro numero \n";
     cin >> num2;
     }
 
     if (num2 == 0 && operador == '/') {
-        cout << "Has activado la autodestrucción, corra o su PC explotará" << '\n';
+        cout << "Has activado la autodestrucción, corra o su PC explotará \n";
     }
     else {
     switch (operador) {
@@ -76,4 +76,5 @@ cin >> operador;
     cout  << '\n';
     }
     }
+    return 0;
     }
